@@ -25,3 +25,11 @@ Add nodes:
 Play music:
 
     tune_homie:play('somebody@somewhere', "tejeez").
+
+## Inspiration
+
+awk-music
+http://kmkeen.com/awk-music/
+
+Algorithmic symphonies from one line of code
+http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html
