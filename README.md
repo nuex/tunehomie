@@ -8,7 +8,7 @@ to SoX to generate music.
 
 Create a config.mk file. Here is an example:
 
-    NAME = "homeboy"
+    NAME = "homeboy@192.168.1.200"
 
 Run some commands to get going:
 
@@ -19,8 +19,8 @@ Run some commands to get going:
 
 Add nodes:
 
-    net_adm:ping('somebody@somewhere').
-    net_adm:ping('someoneelse@somewhere').
+    net_adm:ping('somebody@192.168.0.201').
+    net_adm:ping('someoneelse@192.168.0.202').
 
 Play music:
 
